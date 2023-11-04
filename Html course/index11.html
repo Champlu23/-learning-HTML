@@ -1,0 +1,44 @@
+<!-- action - куда отправляются данные
+method - метод отправки данных\
+placeholder - текст который показывается до ввода
+value - заполняет поле каким-то значением 
+hidden -для скрытия поля
+id - для обращения к input
+color - не во всех браузерах-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+
+    <label for="username">Введите имя</label>
+    <input type="text"
+    placeholder="Введите что-то"
+    value="Что-то" maxlength="5" id="username">
+
+    <input type="text"
+        placeholder="Введите что-то"
+        value="Что-то" maxlength="5" hidden> 
+        <br> </br>    
+        <input type="password"> <br><br>
+        <input type="email"> <br><br>
+        <input type="file"> <br><br>
+        <input type="url"> <br><br>
+        <input type="color"> <br><br> 
+        <input type="date"> <br><br>
+        <input type="time"> <br><br>
+        <input type="datetime-local"> <br><br>
+        <input type="checkbox"> <br><br>  <!-- Галочка -->
+        <input type="radio" name="state"> 
+        <input type="radio" name="state"> <br><br>
+        <input type="button"> <br><br>
+        <input type="submit" value="Отправить"> 
+        <input type="reset" value="Очистить"> <br><br>
+
+    </form>
+</body>
+</html>
